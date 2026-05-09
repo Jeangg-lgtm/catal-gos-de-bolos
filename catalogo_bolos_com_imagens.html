@@ -1,0 +1,176 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Nunito:wght@400;600;700&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  .wrap {
+    background: #fde8f3;
+    padding: 16px 10px 24px;
+    font-family: 'Nunito', sans-serif;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #b5006a;
+  }
+  .header p {
+    font-size: 11px;
+    color: #c2578f;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+  .divider {
+    width: 44px; height: 2.5px;
+    background: #e75480;
+    border-radius: 2px;
+    margin: 7px auto 0;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1.5px solid #f7b8d8;
+    box-shadow: 0 2px 8px rgba(220,80,140,0.09);
+  }
+  .card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+  }
+  .label {
+    background: #fce8f3;
+    padding: 7px 6px 9px;
+    text-align: center;
+    border-top: 1px solid #f5c0d8;
+  }
+  .label .heart { color: #e75480; font-size: 10px; display: block; margin-bottom: 2px; }
+  .label .name {
+    font-weight: 700;
+    font-size: 12px;
+    color: #9e0058;
+    line-height: 1.3;
+  }
+  .cta {
+    background: linear-gradient(135deg, #e75480, #c2006e);
+    border-radius: 14px;
+    padding: 15px 12px;
+    text-align: center;
+    margin-top: 12px;
+    box-shadow: 0 3px 14px rgba(199,0,100,0.2);
+  }
+  .cta p { font-size: 12.5px; color: #fff; font-weight: 600; line-height: 1.5; }
+  .cta .phone {
+    display: inline-block;
+    margin-top: 9px;
+    background: #fff;
+    color: #b5006a;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 6px 20px;
+  }
+  .footer { text-align: center; font-size: 11px; color: #c2578f; margin-top: 12px; font-weight: 600; }
+</style>
+
+<div class="wrap">
+
+  <div class="header">
+    <h1>🎂 Nossos Bolos</h1>
+    <p>Feitos com amor e sabor</p>
+    <div class="divider"></div>
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://guiadacozinha.com.br/wp-content/uploads/2019/08/bolo-dois-brigadeiros.jpg" alt="Bolo de Brigadeiro" onerror="this.style.background='#fce4f0';this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo de Brigadeiro</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6e3c8f3c0c5c20d8c3e3e3b3c3e3e3b3.jpg" alt="Bolo de Ninho"
+        onerror="this.src='https://i.pinimg.com/736x/2e/4e/2e/2e4e2e2e2e2e2e2e2e2e2e2e2e2e2e2e.jpg'; this.onerror=null; this.style.background='#fce4f0'; this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo de Ninho</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/3b/2f/c0/3b2fc0e0e0e0e0e0e0e0e0e0e0e0e0e0.jpg" alt="Bolo Ninho com Nutella"
+        onerror="this.src='https://maritelles.com.br/wp-content/uploads/2021/08/bolo-ninho-nutella.jpg'; this.onerror=null;"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo Ninho com Nutella</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/bolo-ninho-morango.jpg" alt="Bolo Ninho com Morango"
+        onerror="this.src='https://img.cybercook.com.br/receitas/589/bolo-de-leite-ninho-com-morango-1.jpeg'; this.onerror=null;"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo Ninho com Morango</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://compartilharbolo.com.br/wp-content/uploads/2023/01/Bolo-Banana-Com-Doce-De-Leite.jpg" alt="Bolo de Banana"
+        onerror="this.style.background='#fce4f0';this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo de Banana</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://daniellenoce.com.br/wp-content/uploads/2020/07/bolo-fuba-goiabada.jpg" alt="Bolo de Fubá com Goiabada"
+        onerror="this.src='https://guiadacozinha.com.br/wp-content/uploads/2019/07/bolo-fuba-goiabada.jpg'; this.onerror=null;"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo Fubá com Goiabada</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://confeitando.com.br/wp-content/uploads/2019/09/bolo-prestigio.jpg" alt="Bolo Prestígio"
+        onerror="this.style.background='#fce4f0';this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo Prestígio</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://img.cybercook.com.br/receitas/224/bolo-de-limao-1.jpeg" alt="Bolo de Limão"
+        onerror="this.style.background='#fce4f0';this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo de Limão</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.receiteria.com.br/wp-content/uploads/2019/06/bolo-de-cenoura-com-chocolate-00.jpg" alt="Bolo de Cenoura com Chocolate"
+        onerror="this.style.background='#fce4f0';this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo Cenoura com Chocolate</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://img.cybercook.com.br/receitas/109/bolo-de-morango-1.jpeg" alt="Bolo de Morango"
+        onerror="this.style.background='#fce4f0';this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo de Morango</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://img.cybercook.com.br/receitas/316/bolo-de-chocolate-1.jpeg" alt="Bolo de Chocolate"
+        onerror="this.style.background='#fce4f0';this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo de Chocolate</span></div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.nicioli.com.br/wp-content/uploads/2020/03/bolo-de-pacoca.jpg" alt="Bolo de Amendoim"
+        onerror="this.src='https://img.cybercook.com.br/receitas/pacoca/bolo-de-pacoca.jpeg'; this.onerror=null; this.style.background='#fce4f0'; this.style.height='140px'"/>
+      <div class="label"><span class="heart">♥</span><span class="name">Bolo de Amendoim</span></div>
+    </div>
+
+  </div>
+
+  <div class="cta">
+    <p>📞 Chame no número para consultar<br>valores e sabores disponíveis!</p>
+    <span class="phone">(11) 94202-8069</span>
+  </div>
+
+  <p class="footer">Encomendas com antecedência ✦ Feito artesanalmente</p>
+
+</div>
